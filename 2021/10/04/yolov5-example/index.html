@@ -422,7 +422,7 @@
 <li><strong>Custom data training</strong>, hyperparameter evolution, and model exportation to any destination.</li>
 </ul>
 <p>For business inquiries and professional support requests please visit us at <a target="_blank" rel="noopener" href="https://www.ultralytics.com/">https://www.ultralytics.com</a>. </p>
-<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><strong>Issues should be raised directly in the repository.</strong> For business inquiries or professional support requests please visit <a target="_blank" rel="noopener" href="https://www.ultralytics.com/">https://www.ultralytics.com</a> or email Glenn Jocher at <a href="mailto:&#x67;&#x6c;&#101;&#x6e;&#x6e;&#46;&#x6a;&#x6f;&#x63;&#104;&#101;&#x72;&#x40;&#x75;&#108;&#116;&#114;&#x61;&#x6c;&#x79;&#116;&#x69;&#99;&#115;&#x2e;&#99;&#111;&#109;">&#x67;&#x6c;&#101;&#x6e;&#x6e;&#46;&#x6a;&#x6f;&#x63;&#104;&#101;&#x72;&#x40;&#x75;&#108;&#116;&#114;&#x61;&#x6c;&#x79;&#116;&#x69;&#99;&#115;&#x2e;&#99;&#111;&#109;</a>. </p>
+<h2 id="Contact"><a href="#Contact" class="headerlink" title="Contact"></a>Contact</h2><p><strong>Issues should be raised directly in the repository.</strong> For business inquiries or professional support requests please visit <a target="_blank" rel="noopener" href="https://www.ultralytics.com/">https://www.ultralytics.com</a> or email Glenn Jocher at <a href="mailto:&#x67;&#108;&#101;&#x6e;&#110;&#x2e;&#x6a;&#111;&#x63;&#x68;&#x65;&#114;&#x40;&#x75;&#x6c;&#x74;&#x72;&#97;&#108;&#x79;&#116;&#105;&#99;&#115;&#46;&#x63;&#111;&#x6d;">&#x67;&#108;&#101;&#x6e;&#110;&#x2e;&#x6a;&#111;&#x63;&#x68;&#x65;&#114;&#x40;&#x75;&#x6c;&#x74;&#x72;&#97;&#108;&#x79;&#116;&#105;&#99;&#115;&#46;&#x63;&#111;&#x6d;</a>. </p>
 
             </div>
             <hr>
@@ -474,6 +474,26 @@
                   
                 
                 
+  <div id="waline"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#waline', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/@waline/client@1/dist/Waline.min.js', function() {
+        var options = Object.assign(
+          {"serverURL":"https://xiaobo123-server-7cjflo5jq-maluyazilation.vercel.app/","path":"window.location.pathname","placeholder":"随便说点什么喵～o(=•ェ•=)m \\n没有登录也是完全没问题的哦～","meta":["nick","mail"],"requiredMeta":["nick"],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","avatar":"retro","avatarCDN":"https://seccdn.libravatar.org/avatar/","avatarForce":false,"wordLimit":1000,"pageSize":15,"highlight":true,"copyright":false,"visitor":true,"login":"enable"},
+          {
+            el: '#waline',
+            path: window.location.pathname
+          }
+        )
+        new Waline(options);
+        Fluid.utils.waitElementVisible('#waline .vcontent', () => {
+          Fluid.plugins.initFancyBox('#waline .vcontent img:not(.vemoji)');
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
 
               </article>
             
